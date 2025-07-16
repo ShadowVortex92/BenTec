@@ -1,0 +1,62 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0f1c;
+  color: #e0f0ff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  color: #00bcd4;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #89d6e3;
+}
+
+.intro,
+.services {
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #03a9f4;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #16233d;
+  margin: 0.5rem auto;
+  padding: 0.75rem;
+  border-radius: 8px;
+  width: 80%;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #607d8b;
+}
